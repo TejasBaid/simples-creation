@@ -27,7 +27,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "proxy": "https://hidden-thicket-97602.herokuapp.com/ ",
+
   "eslintConfig": {
     "extends": "react-app"
   },
