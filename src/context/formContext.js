@@ -29,7 +29,7 @@ export const FormContextProvider = (props) => {
       );
 const saveUser = () => {
     setLoading(true)
-    axios.post('api/user/create', {
+    axios.post('https://hidden-thicket-97602.herokuapp.com/api/user/create', {
         name:userInput.name,
         phone:userInput.phone,
         chest:userInput.chest,
@@ -50,7 +50,7 @@ const saveUser = () => {
     hide()
     const fetchData = async () => {
           const result = await axios(
-            '/api/user',
+            'https://hidden-thicket-97602.herokuapp.com/api/user',
           );
 
 

@@ -22,7 +22,7 @@ export const List = () => {
     useEffect(() => {
         const fetchData = async () => {
           const result = await axios(
-            'api/user',
+            'https://hidden-thicket-97602.herokuapp.com/api/user',
           );
           setLoading(false)
           setData(result.data);
