@@ -1,0 +1,129 @@
+.list{
+    width: 94vw;
+    margin-top: 6vh;
+    padding: 5vh 2vw;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.item-list{
+    margin-top: 5vh;
+}
+
+.item{
+    padding: 1vh 1.25vh;
+
+    display: flex;
+    margin-top: 2vh;
+    height: 10vh;
+    border-radius: 8px;
+    align-items: center;
+    border: 1px solid #eaeaf1b4;
+    background-color: #fbfbfdad;
+}
+.initials{
+    margin-right: 1.3vw;
+    color: white;
+    font-weight: 500;
+    font-size: 1.4rem;
+    height: 100%;
+    width: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #5F82F4;
+}
+.section{
+    margin-right: 2.1vw;
+    text-align: left;
+    height: 10vh;
+    display: flex;
+    font-weight: 500;
+    flex-direction: column;
+    justify-content: center;
+}
+.last-edited{
+    font-weight: 400;
+    font-size: 0.6rem;
+    letter-spacing: 0.3px;
+    color: #b4b5c5;
+}
+
+.name{
+    font-weight: 500;
+    font-size: 1.2rem;
+    
+}
+.label{
+    font-weight: 400;
+    font-size: 0.6rem;
+    letter-spacing: 0.3px;
+    color: #b4b5c5;
+}
+.section-name{
+    margin-right: 2.1vw;
+    text-align: left;
+    height: 10vh;
+    display: flex;
+    font-weight: 500;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    color: rgba(0, 0, 0, 0.884);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.p-section{
+    margin-right: 3vw;
+    text-align: left;
+    height: 10vh;
+    display: flex;
+    font-weight: 500;
+    flex-direction: column;
+    justify-content: center;
+}
+.p-label{
+    font-weight: 400;
+    font-size: 0.7rem;
+    letter-spacing: 0.3px;
+    color: #b4b5c5;
+}
+.p-title{
+    color: rgba(0, 0, 0, 0.884);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.p-title a{
+    color: rgba(0, 0, 0, 0.884);
+    text-decoration: none;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .section{
+        display: none;
+    }
+    .list{
+        width: 90vw;
+    }
+    .item{
+        justify-content: space-between;
+    }
+    .p-section{
+        text-align: left;
+    }
+    .name{
+        width: 30vw;
+        white-space: nowrap;
+        overflow: hidden !important;
+        text-overflow: ellipsis;
+        font-weight: 500;
+        font-size: 1rem;
+
+    }
+    .p-title{
+        font-size: 0.8rem;
+    }
+}

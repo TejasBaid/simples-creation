@@ -1,0 +1,32 @@
+.full-size{
+    width: 100%;
+}
+.half-size{
+    width: 100%;
+}
+.form-input{
+    background-color: #F4F4F9;
+    border: none;
+    border-radius: 6px;
+    padding: 1.7vh 1vw;
+    margin-top: 1vh;
+    &:focus{
+        outline: none;
+    }
+    
+}
+.form-input-label{
+    color: rgba(0, 0, 0, 0.548);
+    font-weight: 500;
+    margin-top: 2.8vh;
+    font-size: 0.7rem;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .form-input{
+        padding: 1.7vh 2vw;
+    }
+    .form-input{
+        margin-top: 0.5vh;
+    }
+}

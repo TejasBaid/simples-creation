@@ -1,0 +1,33 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.App{
+	display: flex;
+}
+.body {
+	position: relative;
+	z-index: 0;
+	background-color: #f5f5fa;
+	font-family: 'Roboto', sans-serif;
+	padding: 5vh 3vw;
+}
+body{
+	background-color: #f5f5fa;
+	font-family: 'Roboto', sans-serif;
+}
+.sb{
+	position: absolute;
+	z-index: 10;
+	left: 0;
+	bottom: 0;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+	.body{
+		padding: 5vh 5vw;
+	}
+
+}
+
