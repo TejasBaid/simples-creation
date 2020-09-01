@@ -2,7 +2,6 @@
   "name": "client",
   "version": "0.1.0",
   "proxy": "https://hidden-thicket-97602.herokuapp.com",
-  "homepage": "https://tejasbaid.github.io/simples-creation",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
